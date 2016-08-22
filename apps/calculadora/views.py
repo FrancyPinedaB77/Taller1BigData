@@ -10,7 +10,7 @@ def sumar(request):
 	a=9
 	b=4
 	c=a+b
-	hola="cualquier cosa hahahaha"
-	return render(request, 'sumar.html', {'hola': hola})
+	x="cualquier cosa hahahaha"
+	return render(request, 'sumar.html', {'x': x})
 
 # Create your views here.
