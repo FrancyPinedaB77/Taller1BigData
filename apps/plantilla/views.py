@@ -5,12 +5,12 @@ from django.shortcuts import render
 
 
 #definiendo la vista de suma 
-def sumar(request):
+def inicio(request):
 
 	a=9
 	b=4
 	c=a+b
 	x="cualquier cosa hahahaha"
-	return render(request, 'sumar.html', {'x': x})
+	return render(request, 'inicio.html', {'x': x})
 
 # Create your views here.
