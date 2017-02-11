@@ -10,7 +10,7 @@ def inicio(request):
 	a=9
 	b=4
 	c=a+b
-	x="cualquier cosa hahahaha"
+	x="prueba"
 	return render(request, 'inicio.html', {'x': x})
 
 # Create your views here.
